@@ -16,7 +16,7 @@ struct IntroTabView: View {
 			FirstView()
 				.tabItem {}
 				.tag(1)
-			WelcomeView()
+			LinkEntryView()
 				.tabItem {}
 				.tag(2)
 			ExitIntroView()

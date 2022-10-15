@@ -9,7 +9,7 @@ import SwiftUI
 import UIKit
 import WebKit
 
-struct WelcomeView: View {
+struct LinkEntryView: View {
 	@EnvironmentObject var parsely: Parsely
 	@State private var scaleAmt = 1.0
 	@State private var tutorialURL: String = ""
@@ -54,7 +54,7 @@ struct WelcomeView: View {
 
 struct WelcomeView_Previews: PreviewProvider {
     static var previews: some View {
-		WelcomeView().environmentObject(Parsely())
+		LinkEntryView().environmentObject(Parsely())
     }
 }
 
