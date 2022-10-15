@@ -11,7 +11,7 @@ import SwiftUI
 struct ParselyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            IntroTabView()
         }
     }
 }

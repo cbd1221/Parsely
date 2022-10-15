@@ -8,17 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		3B06563528F919D700DEC0EB /* ParselyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B06563428F919D700DEC0EB /* ParselyApp.swift */; };
-		3B06563728F919D700DEC0EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B06563628F919D700DEC0EB /* ContentView.swift */; };
+		3B06563728F919D700DEC0EB /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B06563628F919D700DEC0EB /* FirstView.swift */; };
 		3B06563928F919D800DEC0EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B06563828F919D800DEC0EB /* Assets.xcassets */; };
 		3B06563C28F919D800DEC0EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B06563B28F919D800DEC0EB /* Preview Assets.xcassets */; };
+		3B06564328F91B5D00DEC0EB /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B06564228F91B5D00DEC0EB /* WelcomeView.swift */; };
+		3B06564528F92F2000DEC0EB /* ExitIntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B06564428F92F2000DEC0EB /* ExitIntroView.swift */; };
+		3B06564728F9373500DEC0EB /* IntroTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B06564628F9373500DEC0EB /* IntroTabView.swift */; };
+		3B06564928F9E9A000DEC0EB /* ParselyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B06564828F9E9A000DEC0EB /* ParselyModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3B06563128F919D700DEC0EB /* Parsely.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parsely.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B06563428F919D700DEC0EB /* ParselyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParselyApp.swift; sourceTree = "<group>"; };
-		3B06563628F919D700DEC0EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3B06563628F919D700DEC0EB /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
 		3B06563828F919D800DEC0EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B06563B28F919D800DEC0EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3B06564228F91B5D00DEC0EB /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		3B06564428F92F2000DEC0EB /* ExitIntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExitIntroView.swift; sourceTree = "<group>"; };
+		3B06564628F9373500DEC0EB /* IntroTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroTabView.swift; sourceTree = "<group>"; };
+		3B06564828F9E9A000DEC0EB /* ParselyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParselyModel.swift; sourceTree = "<group>"; };
+		3B06564A28FA2BDF00DEC0EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +44,7 @@
 		3B06562828F919D700DEC0EB = {
 			isa = PBXGroup;
 			children = (
+				3B06563428F919D700DEC0EB /* ParselyApp.swift */,
 				3B06563328F919D700DEC0EB /* Parsely */,
 				3B06563228F919D700DEC0EB /* Products */,
 			);
@@ -51,8 +61,12 @@
 		3B06563328F919D700DEC0EB /* Parsely */ = {
 			isa = PBXGroup;
 			children = (
-				3B06563428F919D700DEC0EB /* ParselyApp.swift */,
-				3B06563628F919D700DEC0EB /* ContentView.swift */,
+				3B06564A28FA2BDF00DEC0EB /* Info.plist */,
+				3B06564628F9373500DEC0EB /* IntroTabView.swift */,
+				3B06563628F919D700DEC0EB /* FirstView.swift */,
+				3B06564428F92F2000DEC0EB /* ExitIntroView.swift */,
+				3B06564228F91B5D00DEC0EB /* WelcomeView.swift */,
+				3B06564828F9E9A000DEC0EB /* ParselyModel.swift */,
 				3B06563828F919D800DEC0EB /* Assets.xcassets */,
 				3B06563A28F919D800DEC0EB /* Preview Content */,
 			);
@@ -137,8 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B06563728F919D700DEC0EB /* ContentView.swift in Sources */,
+				3B06563728F919D700DEC0EB /* FirstView.swift in Sources */,
+				3B06564328F91B5D00DEC0EB /* WelcomeView.swift in Sources */,
+				3B06564928F9E9A000DEC0EB /* ParselyModel.swift in Sources */,
+				3B06564728F9373500DEC0EB /* IntroTabView.swift in Sources */,
 				3B06563528F919D700DEC0EB /* ParselyApp.swift in Sources */,
+				3B06564528F92F2000DEC0EB /* ExitIntroView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +288,7 @@
 				DEVELOPMENT_TEAM = 52L4X98H24;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Parsely/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +318,7 @@
 				DEVELOPMENT_TEAM = 52L4X98H24;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Parsely/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
