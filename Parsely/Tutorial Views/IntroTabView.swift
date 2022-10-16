@@ -22,7 +22,11 @@ struct IntroTabView: View {
 			ExitIntroView()
 				.tabItem {}
 				.tag(3)
-		}.environmentObject(parsely)
+			TestURLView()
+				.tabItem {}
+				.tag(4)
+		}
+		.environmentObject(parsely)
 		.tabViewStyle(PageTabViewStyle())
 		.ignoresSafeArea()
     }

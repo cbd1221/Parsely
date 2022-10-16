@@ -15,6 +15,7 @@
 		3B06564528F92F2000DEC0EB /* ExitIntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B06564428F92F2000DEC0EB /* ExitIntroView.swift */; };
 		3B06564728F9373500DEC0EB /* IntroTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B06564628F9373500DEC0EB /* IntroTabView.swift */; };
 		3B06564928F9E9A000DEC0EB /* ParselyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B06564828F9E9A000DEC0EB /* ParselyModel.swift */; };
+		3B06564D28FBC43700DEC0EB /* TestURLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B06564C28FBC43700DEC0EB /* TestURLView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		3B06564628F9373500DEC0EB /* IntroTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroTabView.swift; sourceTree = "<group>"; };
 		3B06564828F9E9A000DEC0EB /* ParselyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParselyModel.swift; sourceTree = "<group>"; };
 		3B06564A28FA2BDF00DEC0EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3B06564C28FBC43700DEC0EB /* TestURLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestURLView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +85,9 @@
 			children = (
 				3B06564628F9373500DEC0EB /* IntroTabView.swift */,
 				3B06563628F919D700DEC0EB /* FirstView.swift */,
-				3B06564428F92F2000DEC0EB /* ExitIntroView.swift */,
 				3B06564228F91B5D00DEC0EB /* LinkEntryView.swift */,
+				3B06564428F92F2000DEC0EB /* ExitIntroView.swift */,
+				3B06564C28FBC43700DEC0EB /* TestURLView.swift */,
 			);
 			path = "Tutorial Views";
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B06564D28FBC43700DEC0EB /* TestURLView.swift in Sources */,
 				3B06563728F919D700DEC0EB /* FirstView.swift in Sources */,
 				3B06564328F91B5D00DEC0EB /* LinkEntryView.swift in Sources */,
 				3B06564928F9E9A000DEC0EB /* ParselyModel.swift in Sources */,
